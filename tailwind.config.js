@@ -8,9 +8,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'coffee1': "url('/img/coffee1.jpg')",
+        'coffee2': "url('/img/coffee2.jpg')",
+        'coffee3': "url('/img/coffee3.jpg')",
+        'coffee14': "url('/img/coffee14.jpg')",
+        'coffee8': "url('/img/coffee8.jpg')",
       },
     },
   },
