@@ -3,6 +3,7 @@ import Link from "next/link";
 import { BiDownArrowAlt } from "react-icons/bi"
 import { GiCoffeeCup } from "react-icons/gi"
 
+
 export default function MenuMax() {
     return (
         <div className="hidden md:block mt-10 mb-10">
@@ -11,7 +12,8 @@ export default function MenuMax() {
                     <Image src={"/img/coffee6.jpg"} width={100} height={100} alt="coffee image" layout="responsive" />
                 </div>
                 <div className="w-2/5 flex flex-col items-center justify-center text-4xl font-bold text-red-950 gap-8">
-                    <h1 className="border-2 border-red-900 p-2 shadow-sm shadow-black">CARDÁPIO</h1>
+                    <h1 className="border-2 border-red-900 p-2 shadow-sm shadow-black 
+                ">CARDÁPIO</h1>
                     <BiDownArrowAlt size={80} />
                 </div>
             </section>
